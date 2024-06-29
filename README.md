@@ -15,6 +15,7 @@ This is a simple Todo List app that allows you to keep track of your daily tasks
 - Save tasks to local storage
 - Light/dark mode
 - Important Task
+- React-hot-toast
 
 ## Installation
 
