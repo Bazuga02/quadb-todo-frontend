@@ -33,7 +33,7 @@ const TodoItems = () => {
       <div className="space-y-2">
         {filtered.map(({ id, text, completed, dueDate, important }) => (
           <div key={id} className="flex items-center justify-between">
-            <div className="space-x-2 flex items-center w-4/5">
+            <div className="space-x-2 lg:flex gap-2 items-center w-4/5">
               <input
                 type="checkbox"
                 id={id}

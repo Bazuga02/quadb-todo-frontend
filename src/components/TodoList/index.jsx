@@ -15,8 +15,10 @@ const TodoList = () => {
     <>
       <Toaster />
       {isOpenModal && <Modal />}
-      <div className="min-h-screen bg-gradient-to-r bg-pink-600 dark:from-yellow-500 dark:to-yellow-500 pt-16 sm:pt-24 flex flex-col">
-        <h1 className="text-center text-3xl font-extrabold text-black">QuadB Tech Assignment</h1>
+      <div className="min-h-screen bg-gradient-to-r bg-pink-600 dark:from-yellow-500 dark:to-yellow-500 pt-16 sm:pt-24 flex flex-col ">
+        <h1 className="text-center text-3xl font-extrabold text-black">
+          QuadB Tech Assignment
+        </h1>
         <div className="animation-container">
           <Lottie animationData={anim} />
         </div>
@@ -29,6 +31,14 @@ const TodoList = () => {
             <TodoItems />
           </div>
         </div>
+        <p className=" text-center m-3 font-semibold font-nunito">
+          All rights reserved:{" "}
+          <span className=" underline">
+            <a href="https://abhirai-portfolio.netlify.app/" target="_blank">
+              @Abhishek
+            </a>
+          </span>
+        </p>
       </div>
     </>
   );

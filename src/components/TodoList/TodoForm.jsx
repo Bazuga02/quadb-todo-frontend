@@ -37,10 +37,10 @@ const TodoForm = () => {
       <h1 className="text-4xl font-black text-yellow-500 uppercase drop-shadow-2xl dark:text-yellow-500 text-center">
         Todo list
       </h1>
-      <form onSubmit={handleSubmit} className="py-5 flex space-x-2">
+      <form onSubmit={handleSubmit} className="py-5 lg:flex lg:flex-row space-x-2 flex flex-col items-center gap-3">
         <input
           type="text"
-          className="border-b-4 border-pink-500 font-semibold rounded-lg px-3 py-2 outline-none w-full dark:text-yellow-400 dark:bg-slate-700 dark:border-yellow-500"
+          className="border-b-4  border-pink-500 font-semibold rounded-lg px-3 py-2 outline-none w-full dark:text-yellow-400 dark:bg-slate-700 dark:border-yellow-500"
           placeholder="Add a new todo"
           value={todo}
           onChange={(e) => {
